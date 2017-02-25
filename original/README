@@ -1,0 +1,56 @@
+This is my rewrite of Kevin Toms' famous Spectrum Football Manager.
+
+Now you can recreate those youthful days spent screaming at
+your Sinclair Spectrum. All the time aware it made precisely no difference.
+
+For those of you not of that age, this is a very simple, but immense fun
+(IMO) Soccer management game, with stick-man highlights. Take it not only
+from me, but from Spectrum fans everywhere, the original was a work of
+genius. It is not that it is wildly accurate, or even sensible in places.
+It is not gorgeous to look at. It is not ultra realistic. It does not have
+masses of options.
+
+It is just immense fun.
+
+My personal view is this is down to the simplicity. You don't spend hours
+training, setting up formations, all that stuff. You just play the game.
+
+This program is a port of the Allegro version released in December 2001
+and requires SDL 1.2 or better. It also includes the promotion bug fix
+often noted by users of the early version of FM.
+
+If you have scale 1 (e.g. 320x256 console) it mimics the Speccy font
+perfectly ; if you use a larger font it uses my autoscaling semi-rounded
+bitmaps in font.c. They aren't truetype but they are fast and easy and
+low resource and look quite nice. Feel free to nick them.
+
+The teams and players are as at the original release date of 20 years ago.
+However, they can be changed and expanded if you wish. This file, called
+game.dat is normally in /usr/share/fm directory (installed by default).
+However a local file in the cwd will overrule it.
+
+Sorry some of it is a bodge, I put it together under DOS/Windows (sorry for
+foul language) so it was a bodge by default :)
+
+There are no real instructions. It's not difficult, pick your teams, follow
+the prompts....
+
+Saved games are saved in the directory it is run from. Must fix that :)
+
+If you are not in the slightest bit interested in football, the option is
+there to play as Manchester Utd. I bravely (IMO) resisted the temptation to
+code it so they never ever score :)
+
+If anyone is so minded, they could draw me some nice footballers in 8x8
+16x16 and 24x24 sizes , shirts in each of the basic colours. OTOH, the
+stickmen do give it a certain je ne sais quoi (that's culture ya know).
+
+Paul Robson, February 2003.
+
+Incidentally, you may have noticed Swansea in Div.1 (would now be the
+premiership). This is a true story. I was watching the game show "Mr and
+Mrs" and a couple appeared, the male half being a Swansea fan. He had
+told his Girlfriend he would marry her when Swansea reached Div.1 (they
+were then languishing in Div. 4). They promptly won every game in
+sight for the next three years, got promoted, briefly topped Div.1, then
+went straight back down again. Teach him to keep his trap shut ;-)
